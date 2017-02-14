@@ -2,12 +2,31 @@
 <html>
 	<head>
 		<style>
+			header.main {
+				max-width: 70em;
+				margin: 0 auto;
+				padding: 0.25em;
+			}
 			h1 {
-				font-family: "remedy",sans-serif;
+				position: relative;
+				font-family: "bistro-script-web", "Brush Script MT", cursive;
 				font-style: normal;
 				font-weight: 700;
-				text-align: center;
 				font-size: 6em;
+				margin: 0 0.25em 0.25em;
+				margin-top: 0.25em;
+				border-bottom: 1px solid #eee;
+			}
+			h1:before {
+				content: " ";
+				display: block;
+				width: 0.8em;
+				height: 0;
+				padding-bottom: 0.8em;
+				background: transparent url('img/crown.svg') top left no-repeat;
+				position: absolute;
+				top: -0.25em;
+				left: -0.35em;
 			}
 			figure {
 				text-align: center;
@@ -20,10 +39,12 @@
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 	</head>
 	<body>
-		<h1>Cakes by Becca</h1>
+		<header class="main">
+			<h1>Cakes by Becca</h1>
+		</header>
 
 		<figure>
-			<img src="img/2016-1c2-audrey.jpg" alt="Moana cake with te fiti island" />
+			<img src="img/2016-12-audrey.jpg" alt="Moana cake with te fiti island" />
 			<figcaption>This is my little sisters birthday cake that I made for her 7th birthday.</figcaption>
 		</figure>
 
